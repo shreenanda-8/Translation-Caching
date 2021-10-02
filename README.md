@@ -58,6 +58,8 @@ Architecture
 | Smart pre-caching                  | &#10004; | Source text is also translated to similar languages and stored in the cache without affecting the response time of API. |
 <br/>
 
+## Screenshots
+
  First Hit to the API            |  Second Hit to the API (Caching)
 :-------------------------:|:-------------------------:
 ![FirstHit](https://user-images.githubusercontent.com/54429809/135702918-34aa204f-8765-4803-b4ea-74221b496493.png)|![SecondHit](https://user-images.githubusercontent.com/54429809/135702925-45fcd5f3-c27b-43b6-b1c7-142c92921d87.png)
