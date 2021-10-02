@@ -70,6 +70,30 @@ Smart Pre-Caching (by providing similar language as a target language)
 <br />
 <br />
 
+## Guide to use this API.
+
+###### Provide your source text and the target language(in ISO 639-1 format) to translate.
+
+<a href="https://lingohub.com/academy/best-practices/iso-639-1-list">For the Reference</a>
+
+
+```
+   {
+       "source" : "Hello, I am a very good singer",
+       "targetLanguage" : "hi"
+   }
+ ```
+##### Result
+
+```
+  {
+      "success": true,
+      "data": {
+         "translatedText": "नमस्ते, मैं एक बहुत अच्छा गायक हूँ"
+       },
+      "time": "1108 ms"
+  }
+```
 ## Setup and Running the Server/App
 ---
 ### 1. 🔰Clone the Repository
