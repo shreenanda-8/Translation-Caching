@@ -25,7 +25,7 @@
    
 ## Design Decisions
 1. Express framework is used.
-2. Redis is used which works as in-memory dataset (For caching).
+2. Redis is used which works as an in-memory dataset (For caching).
 3. Data is stored in Key-Value pairs. 
 ```
     __________________________________________________________________
