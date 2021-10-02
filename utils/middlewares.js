@@ -14,6 +14,8 @@ const Cors = (request, response, next) => {
 
   next();
 };
+
+//Middleware to check if the key is present in DB or not
 const Cache = (request, response, next) => {
   // Record the response time
   const startTime = new Date().getTime();
